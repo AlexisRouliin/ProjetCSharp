@@ -7,8 +7,10 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            string result = Hello.Greet("Kall");
-            Console.WriteLine(result);
+            var greet = Hello.Greet("wesh");
+            Console.WriteLine(greet);
+            var greetUpper = Hello.GreetUpper("Kall");
+            Console.WriteLine(greetUpper);
         }
     }
 }
